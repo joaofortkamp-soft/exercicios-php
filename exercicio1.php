@@ -64,3 +64,10 @@ foreach ($numeros as $numero) {
         echo "$numero x $i = ", $numero * $i, "\n";
     }
 }
+
+//6. Função com nome
+function saudacao($nome) {
+    echo "Olá $nome!\n";
+} 
+saudacao("Carlos Johnson");
+
