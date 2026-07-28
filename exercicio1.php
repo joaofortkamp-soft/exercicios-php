@@ -117,3 +117,17 @@ $racasPapagaio[] = "Ring-necked Parakeet";
 foreach ($racasPapagaio as $raca) {
     echo $raca, "\n";
 }
+
+//10. Array associativo
+
+$pessoa = [
+    "nome" => "João",
+    "idade" => 20,
+    "cidade" => "Guarapuava",
+    "tchola" => 500.00
+];
+
+echo "Nome: ", $pessoa["nome"], "\n";
+echo "Idade: ", $pessoa["idade"], "\n";
+echo "Cidade: ", $pessoa["cidade"], "\n";
+echo "Tchola: R$ ", $pessoa["tchola"], "\n";
