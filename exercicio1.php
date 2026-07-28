@@ -71,3 +71,21 @@ function saudacao($nome) {
 } 
 saudacao("Carlos Johnson");
 
+//7. Função soma, subtração e frase
+function operacoes($a, $b) {
+    $soma = $a + $b;
+    $subtracao = $a - $b;
+    $frase = "A soma de $a e $b é $soma, e a subtração é $subtracao. Incrível!";
+
+    return [
+        "soma" => $soma,
+        "subtracao" => $subtracao,
+        "frase" => $frase
+    ];
+}
+
+$resultado = operacoes(10, 4);
+echo "Soma: ", $resultado["soma"], "\n";
+echo "Subtração: ", $resultado["subtracao"], "\n";
+echo $resultado["frase"], "\n";
+
