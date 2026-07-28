@@ -53,3 +53,14 @@ for ($i = 1; $i <= 100; $i++) {
     }
 }
 echo "\n";
+
+// 5. Tabuada de 4, 7 e 12.879,5 
+$numeros = [4, 7, 12879.5];
+
+
+foreach ($numeros as $numero) {
+    echo "\nTabuada do $numero:\n";
+    for ($i = 1; $i <= 10; $i++) {
+        echo "$numero x $i = ", $numero * $i, "\n";
+    }
+}
