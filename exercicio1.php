@@ -102,3 +102,18 @@ $memes = [
 foreach ($memes as $meme) {
     echo $meme, "\n";
 }
+
+//9. Array de raças de papagaio
+
+$racasPapagaio = [
+    "Calopsita",
+    "Arara Azul",
+    "Papagaio-verdadeiro",
+    "Periquito Australiano"
+];
+
+$racasPapagaio[] = "Ring-necked Parakeet";
+
+foreach ($racasPapagaio as $raca) {
+    echo $raca, "\n";
+}
