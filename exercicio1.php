@@ -89,3 +89,16 @@ echo "Soma: ", $resultado["soma"], "\n";
 echo "Subtração: ", $resultado["subtracao"], "\n";
 echo $resultado["frase"], "\n";
 
+
+//8. Array de memes com foreach
+$memes = [
+    "Distracted Boyfriend",
+    "Drake Hotline Bling",
+    "Doge",
+    "This Is Fine",
+    "Woman Yelling at a Cat"
+];
+
+foreach ($memes as $meme) {
+    echo $meme, "\n";
+}
